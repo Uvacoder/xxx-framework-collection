@@ -8,7 +8,7 @@ export default defineConfig({
 	build: {
 		format: 'file',
 	},
-	site: `https://${process.env.VITE_FRAMEWORK}.framework.dev/`,
+	site: `https://${process.env.VITE_FRAMEWORK}.xxx123.vercel.app/`,
 	vite: {
 		plugins: [vanillaExtractPlugin()],
 		ssr: {
