@@ -47,15 +47,15 @@ const [
 const searchableWebsiteStructuredData = {
 	'@context': 'https://schema.org',
 	'@type': 'WebSite',
-	url: `https://${import.meta.env.VITE_FRAMEWORK}.framework.dev/`,
-	name: `${formatFieldName(import.meta.env.VITE_FRAMEWORK)} Framework.dev`,
+	url: `https://${import.meta.env.VITE_FRAMEWORK}.xxx123.vercel.app/`,
+	name: `${formatFieldName(import.meta.env.VITE_FRAMEWORK)} xxx123`,
 	potentialAction: {
 		'@type': 'SearchAction',
 		target: {
 			'@type': 'EntryPoint',
 			urlTemplate: `https://${
 				import.meta.env.VITE_FRAMEWORK
-			}.framework.dev/search?q={search_term_string}`,
+			}.xxx123.vercel.app/search?q={search_term_string}`,
 		},
 		'query-input': 'required name=search_term_string',
 	},
@@ -75,7 +75,7 @@ const resourceCards = FRAMEWORK_RESOURCES().filter(
 	/>
 </head>
 <BaseLayout
-	title={`Featured Resources | ${import.meta.env.VITE_FRAMEWORK}.framework.dev`}
+	title={`Featured Resources | ${import.meta.env.VITE_FRAMEWORK}.xxx123.vercel.app`}
 	className={scrollable}
 >
 	<Homepage
