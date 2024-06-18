@@ -25,8 +25,8 @@ export function SocialMetaTags({ siteName, title }: SocialMetaTagsProps) {
 			: `Search, compare, and discover top ${formatAllFrameworkTitles()} libraries and community-driven resources in ${formatAllFrameworkTitles()}.`;
 	const url =
 		siteName === 'landing'
-			? `https://framework.dev`
-			: `https://${siteName}.framework.dev`;
+			? `https://xxx123.vercel.app`
+			: `https://${siteName}.xxx123.vercel.app`;
 	const imageUrl = `${url}/${siteName}-framework-1200x630.png`;
 
 	return (
