@@ -13,7 +13,7 @@ import { DenoIcon } from '../icons/deno-icon';
 export const FRAMEWORK_RESOURCES = (bigSize = false): LinkCardProps[] => [
 	{
 		title: 'Angular Resources',
-		href: 'https://angular.framework.dev/',
+		href: 'https://angular.xxx123.vercel.app/',
 		Icon(props) {
 			return <AngularIcon {...props} />;
 		},
@@ -22,7 +22,7 @@ export const FRAMEWORK_RESOURCES = (bigSize = false): LinkCardProps[] => [
 	},
 	{
 		title: 'React Resources',
-		href: 'https://react.framework.dev/',
+		href: 'https://react.xxx123.vercel.app/',
 		Icon(props) {
 			return <ReactIcon {...props} />;
 		},
@@ -31,7 +31,7 @@ export const FRAMEWORK_RESOURCES = (bigSize = false): LinkCardProps[] => [
 	},
 	{
 		title: 'Vue Resources',
-		href: 'https://vue.framework.dev/',
+		href: 'https://vue.xxx123.vercel.app/',
 		Icon(props) {
 			return <VueIcon {...props} />;
 		},
@@ -40,7 +40,7 @@ export const FRAMEWORK_RESOURCES = (bigSize = false): LinkCardProps[] => [
 	},
 	{
 		title: 'Qwik Resources',
-		href: 'https://qwik.framework.dev/',
+		href: 'https://qwik.xxx123.vercel.app/',
 		Icon(props) {
 			return <QwikIcon {...props} />;
 		},
@@ -49,7 +49,7 @@ export const FRAMEWORK_RESOURCES = (bigSize = false): LinkCardProps[] => [
 	},
 	{
 		title: 'SolidJS Resources',
-		href: 'https://solidjs.framework.dev/',
+		href: 'https://solidjs.xxx123.vercel.app/',
 		Icon(props) {
 			return <SolidJSIcon {...props} />;
 		},
@@ -58,7 +58,7 @@ export const FRAMEWORK_RESOURCES = (bigSize = false): LinkCardProps[] => [
 	},
 	{
 		title: 'GraphQL Resources',
-		href: 'https://graphql.framework.dev/',
+		href: 'https://graphql.xxx123.vercel.app/',
 		Icon(props) {
 			return <GraphQLIcon {...props} />;
 		},
@@ -67,7 +67,7 @@ export const FRAMEWORK_RESOURCES = (bigSize = false): LinkCardProps[] => [
 	},
 	{
 		title: 'NodeJS Resources',
-		href: 'https://nodejs.framework.dev/',
+		href: 'https://nodejs.xxx123.vercel.app/',
 		Icon(props) {
 			return <NodejsIcon {...props} />;
 		},
@@ -77,7 +77,7 @@ export const FRAMEWORK_RESOURCES = (bigSize = false): LinkCardProps[] => [
 	},
 	{
 		title: 'Svelte Resources',
-		href: 'https://svelte.framework.dev/',
+		href: 'https://svelte.xxx123.vercel.app/',
 		Icon(props) {
 			return <SvelteIcon {...props} />;
 		},
@@ -87,7 +87,7 @@ export const FRAMEWORK_RESOURCES = (bigSize = false): LinkCardProps[] => [
 
 	{
 		title: 'Deno Resources',
-		href: 'https://deno.framework.dev/',
+		href: 'https://deno.xxx123.vercel.app/',
 		Icon(props) {
 			return <DenoIcon {...props} />;
 		},
