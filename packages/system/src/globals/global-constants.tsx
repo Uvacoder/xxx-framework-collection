@@ -13,7 +13,7 @@ import { DenoIcon } from '../icons/deno-icon';
 export const FRAMEWORK_RESOURCES = (bigSize = false): LinkCardProps[] => [
 	{
 		title: 'Angular Resources',
-		href: 'https://angular.xxx123.vercel.app/',
+		href: 'https://Angular.xxx123.vercel.app/',
 		Icon(props) {
 			return <AngularIcon {...props} />;
 		},
@@ -22,7 +22,7 @@ export const FRAMEWORK_RESOURCES = (bigSize = false): LinkCardProps[] => [
 	},
 	{
 		title: 'React Resources',
-		href: 'https://react.xxx123.vercel.app/',
+		href: 'https://React.xxx123.vercel.app/',
 		Icon(props) {
 			return <ReactIcon {...props} />;
 		},
